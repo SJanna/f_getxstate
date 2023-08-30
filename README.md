@@ -1,4 +1,4 @@
-# f_getxstate_demo
+# f_getxstate
 
 Basic demo of GetX state management.
 

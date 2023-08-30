@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'controllers/counter_controller.dart';
 import 'ui/pages/main_page.dart';
 
 void main() {
+  Get.put(CounterController());
   runApp(const MyApp());
 }
 
